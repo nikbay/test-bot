@@ -5,12 +5,12 @@
   "menu": {
     "order": "Order updates",
     "help": "Talk to an agent",
-    "suggestion": "Outfit suggestions",
+    "suggestion": "Can i see the Menu?",
     "shop": "Shop now",
     "start_over": "Start over"
   },
   "get_started": {
-    "welcome": "Hi {{userFirstName}}! Welcome to Original Coast Clothing where you'll find styles for every occasion.",
+    "welcome": "Hi {{userFirstName}}! Welcome to Cafe Republic!",
     "guidance": "At any time, use the menu below to navigate through the features",
     "help": "What we can do to help you today?"
   },
