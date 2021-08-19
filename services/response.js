@@ -139,7 +139,7 @@ module.exports = class Response {
         payload: "CURATION"
       },
       {
-        title: i18n.__("menu.help"),
+        title: i18n.__("menu.shop"),
         payload: "CARE_HELP"
       }
     ]);
