@@ -70,16 +70,21 @@ module.exports = class Curation {
         break;
 
       case "CURATION":
-        response = Response.genQuickReply(i18n.__("curation.prompt"), [
-          {
-            title: i18n.__("curation.me"),
-            payload: "CURATION_FOR_ME"
-          },
-          {
-            title: i18n.__("curation.someone"),
-            payload: "CURATION_SOMEONE_ELSE"
-          }
-        ]);
+        response = Response.genGenericTemplate(
+          `${config.appUrl}/styles/${outfit}.jpg`,
+          i18n.__("curation.title"),
+          i18n.__("curation.subtitle"),
+          [
+            Response.genWebUrlButton(
+              i18n.__("curation.shop"),
+              `${config.shopUrl}/products/${outfit}`
+            ),
+            Response.genPostbackButton(
+              i18n.__("curation.show"),
+              "CURATION_OTHER_STYLE"
+            )
+          ]
+        );
         break;
 
       case "CURATION_FOR_ME":
