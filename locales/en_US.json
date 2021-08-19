@@ -23,6 +23,7 @@
     "prompt": "Are you looking for an outfit for yourself or someone else?",
     "occasion": "Great! Let's get started. First, is there an occasion in mind?",
     "price": "How much are you looking to spend?",
+    "order_now": "Order now!",
     "me": "For me!",
     "someone": "Someone else",
     "work": "Work",
@@ -44,7 +45,15 @@
     "status": "Your order is on it’s way, expect to have it in 3 days."
   },
   "care": {
-    "prompt": "Which Branch do you want to order in?"
+    "prompt": "Which Branch do you want to order in?",
+    "order": "Order Inquiries",
+    "billing": "Billing Issues",
+    "other": "Other",
+    "issue": "Hi {{userFirstName}}, my name is {{agentFirstName}}, I'm here to assist you with any questions you might have about your {{topic}}.",
+    "default": "Hi {{userFirstName}}, my name is {{agentFirstName}}, I'm here to assist you today. How can I help you?",
+    "style": "Hi {{userFirstName}}, my name is {{agentFirstName}}, I’m here to answer questions you might have on our summer styles",
+    "end": "This is as far as the demo goes. Leverage the power of the messenger platform for your business. See https://fb.me/get-sample-oc to learn how to build a similar experience",
+    "help": "Help"
   },
   "survey": {
     "prompt": "Hi, want to get quick feedback on your recent experience with {{agentFirstName}}",
