@@ -209,10 +209,6 @@ module.exports = class Curation {
       Response.genPostbackButton(
         i18n.__("curation.show"),
         "CURATION_OTHER_STYLE"
-      ),
-      Response.genPostbackButton(
-        i18n.__("curation.start_over"),
-        "GET_STARTED"
       )
     ];
 
