@@ -76,7 +76,7 @@ module.exports = class Curation {
           i18n.__("curation.subtitle"),
           [
             Response.genPostbackButton(
-              i18n.__("curation.order_now"),
+              i18n.__("curation.order"),
               "CURATION_OTHER_STYLE"
             )
           ]
