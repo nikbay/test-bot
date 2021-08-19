@@ -107,7 +107,7 @@ module.exports = class Receive {
             payload: "CURATION"
           },
           {
-            title: i18n.__("menu.help"),
+            title: i18n.__("menu.shop"),
             payload: "CARE_HELP"
           }
         ])
