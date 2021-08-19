@@ -211,7 +211,7 @@ module.exports = class Curation {
         "CURATION_OTHER_STYLE"
       ),
       Response.genPostbackButton(
-        i18n.__("menu.start_over"),
+        i18n.__("curation.start_over"),
         "GET_STARTED"
       )
     ];
