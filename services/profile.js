@@ -148,15 +148,21 @@ module.exports = class Profile {
           payload: "TRACK_ORDER"
         },
         {
+          title: i18n.__("menu.help"),
+          type: "postback",
+          payload: "CARE_HELP"
+        },
+        {
           title: i18n.__("menu.suggestion"),
           type: "postback",
           payload: "CURATION"
         },
         {
-          title: i18n.__("menu.start_over"),
-          type: "postback",
-          payload: "GET_STARTED"
-        },
+          type: "web_url",
+          title: i18n.__("menu.shop"),
+          url: config.shopUrl,
+          webview_height_ratio: "full"
+        }
       ]
     };
 

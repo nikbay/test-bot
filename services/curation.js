@@ -76,7 +76,7 @@ module.exports = class Curation {
           i18n.__("curation.subtitle"),
           [
             Response.genPostbackButton(
-              i18n.__("curation.order"),
+              i18n.__("curation.order_now"),
               "CURATION_OTHER_STYLE"
             )
           ]
@@ -209,7 +209,7 @@ module.exports = class Curation {
       Response.genPostbackButton(
         i18n.__("curation.show"),
         "CURATION_OTHER_STYLE"
-      )
+      ),
     ];
 
     if (budget === "50") {
